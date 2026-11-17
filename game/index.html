@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPIREBOUND — climb the five spires</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0b0918; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas { width: min(100vw, 177.78vh); height: min(100vh, 56.25vw); display: block; background: #120a2e; }
+  #selftest { display: none; position: fixed; left: 0; top: 0; right: 0; background: #111; color: #0f0; font: 13px monospace; white-space: pre-wrap; padding: 12px; z-index: 10; max-height: 100vh; overflow: auto; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720"></canvas>
+<pre id="selftest"></pre>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
